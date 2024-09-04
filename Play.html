@@ -1,0 +1,29 @@
+<!-- Está é o HTML, que permiti a abertura do SITE, dando a opção do jogador jogar o Game.. -->
+
+
+<!DOCTYPE html> <!-- Gostaria de direcionar o código automaticamente? Apenas escreva 'Html:5' -->
+<html lang="pt-BR"> <!-- O tipo de línguagem.. -->
+<head> <!-- Cabeça -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css"> <!-- 'link', é o codigo que permitir conectar o CSS dentro HTML, dando um visual diferente.. -->
+    <link rel="stylesheet" href="CSS/Inicio/Play.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+                        <title>Inicio</title> <!-- É o titulo do site.. -->
+</head>
+<body> <!-- Corpo -->
+    <main> <!-- Menu -->
+        <div class="andar ativo" id="andar-0"> <!-- Divisão.. -->
+            <picture>
+                <source media="(max-width: 600px)" srcset="IMG/Banner-cll.png"> <!-- '<a>' -> Significa 'Ancora' -->
+                <img src="IMG/Banner.png" alt="Logo"> <!-- 'Img', é o redirencionar de imagens.. -->
+            </picture>
+            <p></p>
+            <a href="index.html"><input type="button" value="Play" data-proximo="3"></a> <!-- 'input', complementa mais de uma função de algum codigo. -->
+        </div>         
+    </main>
+    <script src="JS/script.js"></script> <!-- 'script', conectar o Javascript, juntamente com o HTML -->
+</body>
+</html>

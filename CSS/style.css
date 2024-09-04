@@ -1,0 +1,41 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-color: #2e2942;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 212, 147);
+    display: flex;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+img {
+    max-width: 75%;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 7vh;
+    box-shadow: 10px 10px 5px rgb(18, 16, 20);
+    transition: transform 360ms ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 20px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
